@@ -11,7 +11,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.9.5
-    created: "2024-10-22T07:33:51.787996664Z"
+    created: "2024-10-22T08:11:31.294547916Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 0e2b1dc67321c6bdc346f43d75683e09a0a4caedb6e55ea2d44d450c23655f72
@@ -29,12 +29,12 @@ entries:
     sources:
     - https://github.com/kubernetes/ingress-nginx
     urls:
-    - charts/ingress-nginx-4.9.0.tgz
+    - https://akilprasath10.github.io/test-helm/charts/ingress-nginx-4.9.0.tgz
     version: 4.9.0
   myrestapi:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-22T07:33:51.803047836Z"
+    created: "2024-10-22T08:11:31.317656231Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -43,6 +43,6 @@ entries:
     digest: c1713cbcbc06990a2506122ae36670204bde491349b90e9f0a28a80ad214049d
     name: myrestapi
     urls:
-    - https://akilprasath10.github.io/test-helm/myrestapi-0.1.0.tgz
+    - https://akilprasath10.github.io/test-helm/test-helm/myrestapi-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-22T07:33:51.780279632Z"
+generated: "2024-10-22T08:11:31.264001449Z"
