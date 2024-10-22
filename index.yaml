@@ -43,6 +43,6 @@ entries:
     digest: c1713cbcbc06990a2506122ae36670204bde491349b90e9f0a28a80ad214049d
     name: myrestapi
     urls:
-    - test-helm/myrestapi-0.1.0.tgz
+    - https://akilprasath10.github.io/test-helm/myrestapi-0.1.0.tgz
     version: 0.1.0
 generated: "2024-10-22T07:33:51.780279632Z"
